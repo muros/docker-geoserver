@@ -1,6 +1,6 @@
 #--------- Generic stuff all our Dockerfiles should start with so we get caching ------------
-FROM tomcat:8.0
-MAINTAINER Tim Sutton<tim@linfiniti.com>
+FROM tomcat:8.5
+MAINTAINER Uros Mesaric<upumesar@gmail.com>
 
 RUN  export DEBIAN_FRONTEND=noninteractive
 ENV  DEBIAN_FRONTEND noninteractive
@@ -10,23 +10,25 @@ RUN  dpkg-divert --local --rename --add /sbin/initctl
 # Use local cached debs from host (saves your bandwidth!)
 # Change ip below to that of your apt-cacher-ng host
 # Or comment this line out if you do not with to use caching
-ADD 71-apt-cacher-ng /etc/apt/apt.conf.d/71-apt-cacher-ng
+#ADD 71-apt-cacher-ng /etc/apt/apt.conf.d/71-apt-cacher-ng
 
 RUN apt-get -y update
 
 #-------------Application Specific Stuff ----------------------------------------------------
 
-ENV GS_VERSION 2.8.2
+ENV GS_VERSION 2.9-RC1
 ENV GEOSERVER_DATA_DIR /opt/geoserver/data_dir
 
 RUN mkdir -p $GEOSERVER_DATA_DIR
+
+ADD data_dir /opt/geoserver/data_dir
 
 # Unset Java related ENVs since they may change with Oracle JDK
 ENV JAVA_VERSION=
 ENV JAVA_DEBIAN_VERSION=
 
 # Set JAVA_HOME to /usr/lib/jvm/default-java and link it to OpenJDK installation
-RUN ln -s /usr/lib/jvm/java-7-openjdk-amd64 /usr/lib/jvm/default-java
+RUN ln -s /usr/lib/jvm/java-8-openjdk-amd64 /usr/lib/jvm/default-java
 ENV JAVA_HOME /usr/lib/jvm/default-java
 
 ADD resources /tmp/resources
