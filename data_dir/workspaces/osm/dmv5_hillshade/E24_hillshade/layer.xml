@@ -1,0 +1,15 @@
+<layer>
+  <name>E24_hillshade</name>
+  <id>LayerInfoImpl-6b0143b3:154a9677f6a:-7e65</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-6b0143b3:154a9677f6a:-7e66</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

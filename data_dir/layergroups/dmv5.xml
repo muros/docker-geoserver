@@ -1,0 +1,46 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-6b0143b3:154a9677f6a:-7e62</id>
+  <name>dmv5</name>
+  <mode>SINGLE</mode>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-6b0143b3:154a9677f6a:-7e67</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-6b0143b3:154a9677f6a:-7e65</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-6b0143b3:154a9677f6a:-7e63</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--724408a5:1549579578e:-7ff0</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--724408a5:1549579578e:-7ff4</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-6b0143b3:154a9677f6a:-7edc</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-6b0143b3:154a9677f6a:-7edc</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--724408a5:1549579578e:-7ffd</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--724408a5:1549579578e:-7ffd</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>370488.0578638146</minx>
+    <maxx>629237.0657669065</maxx>
+    <miny>28638.996413794346</miny>
+    <maxy>196616.18197145872</maxy>
+    <crs class="projected">EPSG:3912</crs>
+  </bounds>
+</layerGroup>

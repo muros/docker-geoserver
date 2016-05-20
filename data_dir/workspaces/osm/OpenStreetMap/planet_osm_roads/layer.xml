@@ -1,0 +1,15 @@
+<layer>
+  <name>planet_osm_roads</name>
+  <id>LayerInfoImpl--724408a5:1549579578e:-7ff0</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--724408a5:1549579578e:-7ffd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--724408a5:1549579578e:-7ff1</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

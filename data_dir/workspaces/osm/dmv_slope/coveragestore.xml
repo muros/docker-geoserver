@@ -1,0 +1,11 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl-6b0143b3:154a9677f6a:-7edf</id>
+  <name>dmv_slope</name>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--724408a5:1549579578e:-7ffb</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:coverages/dmv5/E24_slope_color.tiff</url>
+</coverageStore>

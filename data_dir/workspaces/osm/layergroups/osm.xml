@@ -1,0 +1,42 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--724408a5:1549579578e:-7fec</id>
+  <name>osm</name>
+  <mode>SINGLE</mode>
+  <title>OSM group</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--724408a5:1549579578e:-7ffb</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--724408a5:1549579578e:-7fed</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--724408a5:1549579578e:-7ff4</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--724408a5:1549579578e:-7ff0</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--724408a5:1549579578e:-7ffc</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--724408a5:1549579578e:-7ffd</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--724408a5:1549579578e:-7ffd</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>1485102.625</minx>
+    <maxx>1853033.75</maxx>
+    <miny>5685041.0</miny>
+    <maxy>5925996.0</maxy>
+    <crs class="projected">EPSG:900913</crs>
+  </bounds>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layerGroup>

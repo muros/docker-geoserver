@@ -1,0 +1,15 @@
+<layer>
+  <name>E24_slope_color</name>
+  <id>LayerInfoImpl-6b0143b3:154a9677f6a:-7e63</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe2</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-6b0143b3:154a9677f6a:-7e64</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
